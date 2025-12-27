@@ -125,6 +125,7 @@
   max-width: none;
   object-fit: contain;
   display: block;
+  filter: brightness(0) invert(1);
 
   @media (min-width: 375px) {
     height: 42px;
